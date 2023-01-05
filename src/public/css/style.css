@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Dancing+Script:wght@500&family=Righteous&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 0px 30px 0px 30px;
+    padding: 0px;
+}
+
+.conteudo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -6px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav {
+    margin: 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 14vh;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    width: 100vw;
+    margin-left: -30px;
+    box-shadow: 4px 0px 20px 1px rgb(0 0 0 / 7%);
+}
+
+nav a {
+    color: #015165;
+}
+
+#links {
+    position: relative;
+    right: 70px;
+    color: #015165;
+}
+
+#logo {
+    margin-top: 8px;
+}
+
+#logo img {
+    width: 4vw;
+}
+
+#entrar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+ul#navLinks {
+    display: flex;
+    width: 50vw;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#call {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#call h1 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #F5A357;
+    font-size: 96px;
+    margin: 0px;
+}
+
+#call h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #015165;
+    font-size: 100px;
+    margin-top: -60px;
+}
+
+#dupla img {
+    margin-left: 60px;
+    width: 45vw;
+}
+
+#buttons {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    gap: 15px;
+    margin-top: -120px;
+}
+
+#botaoPrimario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f48925;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    background-position: center;
+    transition: background 0.8s;
+    width: 300px;
+}
+
+#botaoPrimario:hover {
+    background: #f7a960 radial-gradient(circle, transparent 1%, #F5A357 1%) center/15000%;
+}
+
+#botaoPrimario:active {
+    background-color: #dd6d0b;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+#botaoSecundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    border: 3px solid #015165;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #015165;
+    cursor: pointer;
+    background-position: center;
+    transition: background 0.8s;
+    width: 300px;
+}
+
+#botaoSecundario:hover {
+    background: #015165 radial-gradient(circle, transparent 1%, #015165 1%) center/15000%;
+    color: #FFFFFF;
+}
+
+#botaoSecundario:active {
+    background-color: #022f3b;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+#frase {
+    width: 555px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #9E9E9E;
+    margin-top: -230px;
+    margin-left: 25px;
+}
+
+#faixa {
+    background-color: #F5A357;
+    width: 100vw;
+    margin-left: -30px;
+    height: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+#box-beneficios {
+    display: flex;
+    width: 50%;
+    word-break: break-all;
+}
+
+#beneficios {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#titulo-img {
+    display: flex;
+    gap: 40px;
+    font-family: 'Bowlby One SC', cursive;
+    align-items: center;
+    color: #015165;
+    font-size: 23px;
+}
+
+#titulo-img img {
+    width: 48px;
+    height: 47px;
+}
