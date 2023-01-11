@@ -124,7 +124,7 @@ a {
     font-size: 1.3rem;
     background-position: center;
     transition: background 0.8s;
-    width: 300px;
+    width: 275px;
 }
 
 #botaoPrimario:hover {
@@ -151,7 +151,7 @@ a {
     cursor: pointer;
     background-position: center;
     transition: background 0.8s;
-    width: 300px;
+    width: 275px;
 }
 
 #botaoSecundario:hover {
@@ -212,4 +212,124 @@ a {
 #titulo-img img {
     width: 48px;
     height: 47px;
+}
+
+#playlist {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#playlist img {
+    width: 30%;
+}
+
+h4 {
+    width: 30%;
+    font-family: 'Don José';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 73px;
+    color: #015165;
+}
+
+.custom-shape-divider-bottom-1673448771 {
+    transform: rotate(180deg);
+    display: flex;
+    width: 100vw;
+    margin-left: -30px;
+}
+
+.custom-shape-divider-bottom-1673448771 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 116px;
+}
+
+.custom-shape-divider-bottom-1673448771 .shape-fill {
+    fill: #F5A357;
+}
+
+#comentários {
+    width: 100vw;
+    margin-left: -30px;
+    margin-top: -22px;
+    background-color: #F5A357;
+}
+
+#cards {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    color: #666666;
+    flex-direction: column;
+    padding: 22px;
+}
+
+#cards p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 8px;
+}
+
+#perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+
+#perfil p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #F5A357;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 55%
+}
+
+#cards h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 12px 0px -4px 0px;
+}
+
+.comentarios-corpo {
+    display: flex;
+}
+
+.card-grid {
+    width: 46%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    height: 45%;
 }
