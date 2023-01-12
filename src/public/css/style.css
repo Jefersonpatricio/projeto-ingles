@@ -39,6 +39,10 @@ nav a {
     color: #015165;
 }
 
+nav a :hover {
+    color: #4899af;
+}
+
 #links {
     position: relative;
     right: 70px;
@@ -256,6 +260,18 @@ h4 {
     fill: #F5A357;
 }
 
+#titulo {
+    font-family: 'Don José';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
 #comentários {
     width: 100vw;
     margin-left: -30px;
@@ -275,7 +291,7 @@ h4 {
     align-items: flex-start;
     color: #666666;
     flex-direction: column;
-    padding: 22px;
+    padding: 16px;
 }
 
 #cards p {
@@ -324,6 +340,7 @@ h4 {
 
 .comentarios-corpo {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .card-grid {
@@ -332,4 +349,51 @@ h4 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     height: 45%;
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    height: 100px;
+    width: auto;
+    padding-top: 7px;
+    margin-top: -31px;
+    background-color: #FFFFFF;
+    align-items: baseline;
+    position: relative;
+}
+
+.container div {
+    height: 70px;
+    min-width: 300px;
+    margin-left: 100px;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        /* distancia da view port das imagens */
+        transform: translateX(-232.8vw);
+    }
+}
+
+@media screen and ( min-width: 1920px) {
+    .container div {
+        height: 70px;
+        min-width: 500px;
+        margin-left: 100px;
+        animation: scroll 15s linear infinite;
+    }
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            /* distancia da view port das imagens */
+            transform: translateX(-250.6vw);
+        }
+    }
 }
