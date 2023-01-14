@@ -18,8 +18,8 @@ app.get('/login', (req, res) => {
 app.get('/aulas', (req, res) => {
     res.render('aulas');
 });
-app.get('/aprenda-agora', (req, res) => {
-    res.render('aprenda');
+app.get('/sobre-nos', (req, res) => {
+    res.render('sobre');
 });
 
 app.get('/contato', (req, res) => {
