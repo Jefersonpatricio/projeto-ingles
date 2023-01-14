@@ -7,9 +7,14 @@ footer {
     padding-bottom: 30px;
 }
 
-a {
+footer a {
     color: #ffffff;
     display: flex;
+}
+
+footer a :hover {
+    color: #F5A357;
+    transform: scale(1.5);
 }
 
 #heart {
@@ -19,7 +24,7 @@ a {
 }
 
 #social {
-    width: 10vw;
+    width: 15vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
