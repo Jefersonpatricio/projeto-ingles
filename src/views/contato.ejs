@@ -5,13 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel='stylesheet' href="/css/style.css">
+    <title>Contato</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel='stylesheet' href="/css/contato.css">
 </head>
 <%- include('./partials/nav.ejs'); -%>
 
     <body>
-        <h1> Página de Contato</h1>
+        <div class="central">
+            <div id="conteudo">
+                <h1> ALGUMA DÚVIDA?</h1>
+                <P>Entre em contato conosco, nossos consultores estão te aguardando.</P>
+                <img src="/images/contact.png" alt="">
+            </div>
+            <div id="form">
+                <form>
+                    <label for="name">Nome completo</label>
+                    <input type="text" id="name" placeholder="Qual é o seu nome?">
+
+                    <label for="mail">E-mail</label>
+                    <input type="text" id="mail" placeholder="seuemail@email.com">
+
+                    <label for="tel">Celular</label>
+                    <input type="text" id="cel" maxlength="11" placeholder="(**) 9****-****">
+
+                    <label for="duvida">Sobre o quê é a sua dúvida?</label>
+                    <select name="duvida" id="duvida">
+                <option value="planos">Planos e pagamentos</option>
+                <option value="duracao">Duração</option>
+                <option value="acessar">Como acessar</option>
+                <option value="bolsas">Bolsas</option>
+               </select>
+
+                    <label for="descricao">Nos conte o que você precisa</label>
+                    <input type="text" id="descricao">
+                    <button id="send" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </body>
 
 
