@@ -7,14 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suas aulas</title>
     <link rel="icon" href="/images/favicon.ico">
-    <link rel='stylesheet' href="/css/style.css">
+    <link rel='stylesheet' href="/css/aulas.css">
 </head>
 <%- include('./partials/nav.ejs'); -%>
+    </head>
 
     <body>
-        <h1> Página de AULAS</h1>
+        <h1>Suas aulas</h1>
+        <p>Para acessar o conteúdo basta clicar na aula desejada.</p>
+        <button class="accordion">Aula 1</button>
+        <div class="panel">
+            <div class="thumb">
+                <img src="/images/image18.png" alt="">
+            </div>
+            <div id="titulos">
+                <h2>Pegadinha do Inglês</h2>
+                <h3>Aviões do forró</h3>
+                <div id="letra">
+                    <details>
+                        <summary>Letra</summary>
+                        <p>É Aviões do Forró! Olha o inglês aí, my brother Dá-lhe Avião! Hello boy, my name is Sol Aviões do Forró Hello boy, my name is Sol Aviões do Forró Beautiful girl Dance comigo na pista Balada, balada Come on, come on, boy, boy Dance
+                            comigo na pista Balada, balada Ok! Let's go, boy! Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, I love you! I love you! Eu vou cantar pra
+                            tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, I love you! I love you! Boy, te peguei na pegadinha do inglês Sou brasileira, não sou americana Boy, te peguei
+                            na pegadinha do inglês Sou brasileira, não sou americana Boy, te peguei na pegadinha do inglês Sou brasileira, não sou americana Boy, te peguei na pegadinha do inglês Sou brasileira, não sou americana Eu vou cantar pra tu,
+                            girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, I love you! I love you! Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar
+                            pra tu, girl beautiful Eu vou cantar pra tu, I love you! I love you! Beautiful girl Dance comigo na pista Balada, balada Come on, come on, boy, boy Dance comigo na pista Balada, balada Ok! Let's go, boy! Eu vou cantar pra tu,
+                            girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, I love you! I love you! Eu vou cantar pra tu, girl beautiful Eu vou cantar pra tu, girl beautiful Eu vou cantar
+                            pra tu, girl beautiful Eu vou cantar pra tu, I love you! I love you!</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+
+        <button class="accordion">Aula 2</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Aula 3</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <script src="script.js"></script>
     </body>
 
+    <%- include('./partials/footer.ejs'); -%>
 
 </html>
-<%- include('./partials/footer.ejs'); -%>
